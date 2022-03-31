@@ -71,11 +71,11 @@ resize();
 renderer.render(scene, camera);
 
 // Load textures for mask material.
-//const colorTexture = new TextureLoader().load("../../assets/mesh_map_lipstick.jpg");
-const colorTexture = new TextureLoader().load("../../assets/mesh_map.jpg");
-const aoTexture = new TextureLoader().load("../../assets/ao.jpg");
-const alphaTexture = new TextureLoader().load("../../assets/black.png");
-//const alphaTexture = new TextureLoader().load("../../assets/black_edited.jpg"); //modified---------------------------------------------
+//const colorTexture = new TextureLoader().load("../assets/mesh_map_lipstick.jpg");
+const colorTexture = new TextureLoader().load("../assets/mesh_map.jpg");
+const aoTexture = new TextureLoader().load("../assets/ao.jpg");
+const alphaTexture = new TextureLoader().load("../assets/black.png");
+//const alphaTexture = new TextureLoader().load("../assets/black_edited.jpg"); //modified---------------------------------------------
 
 // Create wireframe material for debugging.
 const wireframeMaterial = new MeshBasicMaterial({
