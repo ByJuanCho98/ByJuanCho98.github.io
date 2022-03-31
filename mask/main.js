@@ -15,9 +15,9 @@ import {
   TextureLoader,
   MeshStandardMaterial,
   BoxGeometry,
-} from "../../third_party/three.module.js";
-import { FaceMeshFaceGeometry } from "../../js/face.js";
-import { OrbitControls } from "../../third_party/OrbitControls.js";
+} from "../third_party/three.module.js";
+import { FaceMeshFaceGeometry } from "../js/face.js";
+import { OrbitControls } from "../third_party/OrbitControls.js";
 
 let modelthree; //modified----------------------------------------------------------------------------------------------------
 
